@@ -1,0 +1,53 @@
+[0.023s] Invoking command in '/home/bryant/ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/warehouse_ros_mongo:/home/bryant/ws/install/warehouse_ros:/home/bryant/ws/install/ur_simulation_gz:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur10_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/warehouse_ros_mongo/lib:/home/bryant/ws/install/warehouse_ros/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_simulation_gazebo
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.259s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.366s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.520s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.622s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.625s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.646s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.659s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.659s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.659s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.659s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.680s] -- Found PythonExtra: .so  
+[0.683s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.760s] -- Configuring done
+[0.761s] -- Generating done
+[0.761s] -- Build files have been written to: /home/bryant/ws/build/ur_simulation_gazebo
+[0.764s] Invoked command in '/home/bryant/ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/warehouse_ros_mongo:/home/bryant/ws/install/warehouse_ros:/home/bryant/ws/install/ur_simulation_gz:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur10_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/warehouse_ros_mongo/lib:/home/bryant/ws/install/warehouse_ros/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_simulation_gazebo
+[0.765s] Invoking command in '/home/bryant/ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/warehouse_ros_mongo:/home/bryant/ws/install/warehouse_ros:/home/bryant/ws/install/ur_simulation_gz:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur10_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/warehouse_ros_mongo/lib:/home/bryant/ws/install/warehouse_ros/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bryant/ws/build/ur_simulation_gazebo -- -j6 -l6
+[0.814s] Invoked command in '/home/bryant/ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/warehouse_ros_mongo:/home/bryant/ws/install/warehouse_ros:/home/bryant/ws/install/ur_simulation_gz:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur10_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/warehouse_ros_mongo/lib:/home/bryant/ws/install/warehouse_ros/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bryant/ws/build/ur_simulation_gazebo -- -j6 -l6
+[0.816s] Invoking command in '/home/bryant/ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/warehouse_ros_mongo:/home/bryant/ws/install/warehouse_ros:/home/bryant/ws/install/ur_simulation_gz:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur10_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/warehouse_ros_mongo/lib:/home/bryant/ws/install/warehouse_ros/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bryant/ws/build/ur_simulation_gazebo
+[0.824s] -- Install configuration: "Release"
+[0.824s] -- Execute custom install script
+[0.825s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.836s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.848s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.858s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[0.869s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[0.880s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[0.890s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[0.902s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[0.913s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[0.926s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[0.936s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[0.948s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[0.960s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[0.971s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[0.986s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[0.996s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[1.008s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[1.019s] -- Symlinking: /home/bryant/ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[1.032s] Invoked command in '/home/bryant/ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/warehouse_ros_mongo:/home/bryant/ws/install/warehouse_ros:/home/bryant/ws/install/ur_simulation_gz:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur10_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/warehouse_ros_mongo/lib:/home/bryant/ws/install/warehouse_ros/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bryant/ws/build/ur_simulation_gazebo
