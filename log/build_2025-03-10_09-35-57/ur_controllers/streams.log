@@ -1,0 +1,192 @@
+[0.018s] Invoking command in '/home/bryant/ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/home/bryant/ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_controllers
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.259s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.400s] -- Detecting CXX compile features - done
+[0.403s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.704s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.709s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.753s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.758s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.765s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.015s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.019s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.046s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.125s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.128s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.142s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.145s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.154s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.165s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.177s] -- Looking for pthread.h
+[1.270s] -- Looking for pthread.h - found
+[1.270s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.366s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.367s] -- Found Threads: TRUE  
+[1.417s] -- Found joint_trajectory_controller: 2.41.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.494s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.504s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.513s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.515s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.515s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.568s] -- Found ur_dashboard_msgs: 2.5.2 (/home/bryant/ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.584s] -- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.629s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.635s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.675s] -- Found ros2_control_test_assets: 2.48.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.682s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.691s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.693s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.786s] -- Configuring done
+[1.938s] -- Generating done
+[1.954s] -- Build files have been written to: /home/bryant/ws/build/ur_controllers
+[1.972s] Invoked command in '/home/bryant/ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/home/bryant/ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_controllers
+[1.972s] Invoking command in '/home/bryant/ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/home/bryant/ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bryant/ws/build/ur_controllers -- -j6 -l6
+[2.040s] [  3%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[2.042s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[2.042s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[2.042s] [ 12%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[2.045s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[2.081s] [ 19%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[2.208s] [ 22%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[2.208s] [ 25%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[2.211s] [ 29%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[2.223s] [ 32%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[2.235s] [ 35%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[2.253s] [ 38%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[2.262s] [ 38%] Built target gpio_controller_parameters
+[2.267s] [ 38%] Built target scaled_joint_trajectory_controller_parameters
+[2.269s] [ 38%] Built target speed_scaling_state_broadcaster_parameters
+[2.287s] [ 38%] Built target force_mode_controller_parameters
+[2.288s] [ 41%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bryant/ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[2.289s] [ 41%] Built target freedrive_mode_controller_parameters
+[2.296s] [ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.301s] [ 51%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.302s] [ 51%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.309s] [ 51%] Built target passthrough_trajectory_controller_parameters
+[2.420s] [ 54%] [34m[1mCreating deprecated header file /home/bryant/ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[2.473s] [ 54%] Built target ur_configuration_controller_parameters
+[2.499s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[2.499s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[2.499s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[3.345s] [ 67%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.796s] [ 67%] Built target gmock_main
+[3.797s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[3.925s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[5.174s] [ 77%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.321s] [ 77%] Built target gmock
+[5.332s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[7.633s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[14.083s] [ 87%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[15.408s] [ 87%] Built target ur_controllers
+[15.436s] [ 90%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[15.437s] [ 93%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[20.241s] [ 96%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[20.422s] [100%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[20.624s] [100%] Built target test_load_force_mode_controller
+[20.808s] [100%] Built target test_load_freedrive_mode_controller
+[20.825s] Invoked command in '/home/bryant/ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/home/bryant/ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bryant/ws/build/ur_controllers -- -j6 -l6
+[20.827s] Invoking command in '/home/bryant/ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/home/bryant/ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bryant/ws/build/ur_controllers
+[20.834s] -- Install configuration: ""
+[20.834s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.835s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.835s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.836s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.836s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.836s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.836s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.837s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.837s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.837s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.837s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.837s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.838s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.839s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.840s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[20.841s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[20.841s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[20.844s] -- Installing: /home/bryant/ws/install/ur_controllers/lib/libur_controllers.so
+[20.874s] -- Set runtime path of "/home/bryant/ws/install/ur_controllers/lib/libur_controllers.so" to ""
+[20.874s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include
+[20.874s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/include/ur_controllers
+[20.874s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[20.875s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[20.875s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[20.875s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[20.875s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[20.876s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[20.876s] -- Installing: /home/bryant/ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[20.876s] -- Up-to-date: /home/bryant/ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[20.876s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[20.877s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[20.877s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[20.877s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[20.878s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[20.878s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[20.878s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[20.878s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[20.879s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[20.879s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[20.879s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[20.879s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[20.880s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/package.dsv
+[20.880s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[20.880s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[20.880s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.881s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.881s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[20.881s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[20.881s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[20.882s] -- Installing: /home/bryant/ws/install/ur_controllers/share/ur_controllers/package.xml
+[20.885s] Invoked command in '/home/bryant/ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_controllers:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/home/bryant/ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bryant/ws/build/ur_controllers

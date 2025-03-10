@@ -1,1 +1,2 @@
-/home/bryant/ws/build/ur_dashboard_msgs/rosidl_cmake/srv/RawRequest_Request.msg
+# This service is there to support any dashboard query not explicitly supported
+string query

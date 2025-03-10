@@ -1,1 +1,3 @@
-/home/bryant/ws/build/ur_dashboard_msgs/rosidl_cmake/srv/Popup_Response.msg
+
+string answer
+bool success

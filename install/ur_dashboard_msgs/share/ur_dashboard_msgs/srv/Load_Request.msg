@@ -1,1 +1,2 @@
-/home/bryant/ws/build/ur_dashboard_msgs/rosidl_cmake/srv/Load_Request.msg
+# Service to load programs or installations
+string filename

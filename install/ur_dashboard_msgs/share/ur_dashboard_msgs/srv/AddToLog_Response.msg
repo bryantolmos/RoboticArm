@@ -1,1 +1,3 @@
-/home/bryant/ws/build/ur_dashboard_msgs/rosidl_cmake/srv/AddToLog_Response.msg
+
+string answer
+bool success

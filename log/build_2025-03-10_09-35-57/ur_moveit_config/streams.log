@@ -1,0 +1,77 @@
+[0.015s] Invoking command in '/home/bryant/ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_description:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_moveit_config
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.319s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.436s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.907s] -- Configuring done
+[0.913s] -- Generating done
+[0.915s] -- Build files have been written to: /home/bryant/ws/build/ur_moveit_config
+[0.924s] Invoked command in '/home/bryant/ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_description:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_moveit_config
+[0.924s] Invoking command in '/home/bryant/ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_description:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/bryant/ws/build/ur_moveit_config -- -j6 -l6
+[1.002s] Built target ament_cmake_python_copy_ur_moveit_config
+[1.312s] running egg_info
+[1.313s] creating ur_moveit_config.egg-info
+[1.313s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.313s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.313s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.313s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.313s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.313s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.350s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.357s] Invoked command in '/home/bryant/ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_description:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/bryant/ws/build/ur_moveit_config -- -j6 -l6
+[1.365s] Invoking command in '/home/bryant/ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_description:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/bryant/ws/build/ur_moveit_config
+[1.368s] -- Install configuration: ""
+[1.368s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/config
+[1.369s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.372s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.375s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.375s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.376s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[1.377s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/launch
+[1.377s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.378s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/rviz
+[1.378s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.378s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/srdf
+[1.379s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.380s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.381s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.381s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.381s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/PKG-INFO
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/dependency_links.txt
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/SOURCES.txt
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/top_level.txt
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.383s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.422s] Listing '/home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.422s] Compiling '/home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.423s] Compiling '/home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.423s] -- Installing: /home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.455s] Compiling '/home/bryant/ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.459s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.460s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.460s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.460s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.460s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.460s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.461s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.461s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.461s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.462s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.462s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.462s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.462s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.462s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.463s] -- Installing: /home/bryant/ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.467s] Invoked command in '/home/bryant/ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_description:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/bryant/ws/build/ur_moveit_config

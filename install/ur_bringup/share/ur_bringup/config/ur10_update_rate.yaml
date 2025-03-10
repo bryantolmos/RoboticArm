@@ -1,1 +1,3 @@
-/home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_bringup/config/ur10_update_rate.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 125  # Hz

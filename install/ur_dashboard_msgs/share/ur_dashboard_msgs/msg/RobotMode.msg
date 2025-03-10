@@ -1,1 +1,12 @@
-/home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs/msg/RobotMode.msg
+int8 NO_CONTROLLER=-1
+int8 DISCONNECTED=0
+int8 CONFIRM_SAFETY=1
+int8 BOOTING=2
+int8 POWER_OFF=3
+int8 POWER_ON=4
+int8 IDLE=5
+int8 BACKDRIVE=6
+int8 RUNNING=7
+int8 UPDATING_FIRMWARE=8
+
+int8 mode

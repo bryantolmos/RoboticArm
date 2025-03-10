@@ -1,1 +1,5 @@
-/home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs/msg/ProgramState.msg
+string STOPPED=STOPPED
+string PLAYING=PLAYING
+string PAUSED=PAUSED
+
+string state

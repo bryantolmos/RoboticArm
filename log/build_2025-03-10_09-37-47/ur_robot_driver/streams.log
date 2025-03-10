@@ -1,0 +1,166 @@
+[0.033s] Invoking command in '/home/bryant/ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_robot_driver
+[0.049s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.165s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.193s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.393s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.407s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.423s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.439s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.448s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.525s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.525s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.534s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.539s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.540s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.580s] -- Found ur_dashboard_msgs: 2.5.2 (/home/bryant/ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.594s] -- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.803s] -- Found ur_controllers: 2.5.2 (/home/bryant/ws/install/ur_controllers/share/ur_controllers/cmake)
+[0.873s] -- Found ur_description: 2.1.10 (/home/bryant/ws/install/ur_description/share/ur_description/cmake)
+[0.873s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.874s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.895s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.895s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.895s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.897s] -- Configuring done
+[1.035s] -- Generating done
+[1.052s] -- Build files have been written to: /home/bryant/ws/build/ur_robot_driver
+[1.066s] Invoked command in '/home/bryant/ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bryant/ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bryant/ws/install/ur_robot_driver
+[1.068s] Invoking command in '/home/bryant/ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bryant/ws/build/ur_robot_driver -- -j6 -l6
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target ur_ros2_control_node[0m
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target dashboard_client[0m
+[1.122s] [35m[1mConsolidate compiler generated dependencies of target controller_stopper_node[0m
+[1.122s] [35m[1mConsolidate compiler generated dependencies of target urscript_interface[0m
+[1.124s] [35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[1.156s] [  6%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[1.156s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[1.164s] [ 13%] Built target ament_cmake_python_copy_ur_robot_driver
+[1.164s] [ 20%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[1.164s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[1.177s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[1.177s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[4.312s] [ 46%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[5.179s] [ 53%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[5.366s] [ 53%] Built target ur_ros2_control_node
+[5.385s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[8.419s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[9.386s] running egg_info
+[9.386s] writing ur_robot_driver.egg-info/PKG-INFO
+[9.387s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[9.389s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[9.393s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[9.393s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[9.420s] [ 66%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[9.431s] [ 73%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[10.173s] [ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[10.410s] [ 80%] Built target urscript_interface
+[11.773s] [ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[12.008s] [ 86%] Built target controller_stopper_node
+[13.876s] [ 93%] [32m[1mLinking CXX executable dashboard_client[0m
+[14.153s] [ 93%] Built target dashboard_client
+[14.760s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[15.033s] [100%] Built target ur_robot_driver_plugin
+[15.049s] Invoked command in '/home/bryant/ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bryant/ws/build/ur_robot_driver -- -j6 -l6
+[15.053s] Invoking command in '/home/bryant/ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bryant/ws/build/ur_robot_driver
+[15.063s] -- Install configuration: "Release"
+[15.063s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[15.063s] -- Installing: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[15.068s] -- Set runtime path of "/home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[15.069s] -- Installing: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[15.069s] -- Set runtime path of "/home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""
+[15.070s] -- Installing: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[15.075s] -- Set runtime path of "/home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[15.075s] -- Installing: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[15.079s] -- Set runtime path of "/home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[15.079s] -- Installing: /home/bryant/ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[15.088s] -- Set runtime path of "/home/bryant/ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[15.088s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include
+[15.088s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver
+[15.088s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[15.088s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[15.089s] -- Installing: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[15.089s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[15.090s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[15.090s] -- Installing: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[15.091s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info
+[15.091s] -- Installing: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/PKG-INFO
+[15.091s] -- Installing: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/dependency_links.txt
+[15.091s] -- Installing: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/SOURCES.txt
+[15.091s] -- Installing: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/top_level.txt
+[15.092s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[15.092s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[15.125s] Listing '/home/bryant/ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[15.127s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[15.127s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[15.128s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[15.128s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[15.128s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[15.128s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[15.129s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[15.130s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[15.131s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[15.131s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[15.131s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[15.131s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[15.131s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[15.131s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[15.132s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[15.132s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[15.132s] -- Installing: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[15.132s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[15.132s] -- Installing: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[15.132s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[15.132s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[15.133s] -- Installing: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[15.133s] -- Installing: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[15.133s] -- Up-to-date: /home/bryant/ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[15.137s] Invoked command in '/home/bryant/ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/bryant/ws/install/ur_controllers/lib:/home/bryant/ws/install/ur_dashboard_msgs/lib:/home/bryant/ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bryant/ws/build/ur_robot_driver

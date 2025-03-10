@@ -1,0 +1,39 @@
+[0.048s] Invoking command in '/home/bryant/ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/bryant/ws/build/ur_calibration -- -j6 -l6
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target calibration[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.117s] [ 16%] Built target gmock_main
+[0.121s] [ 41%] Built target gmock
+[0.132s] [ 66%] Built target calibration
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target calibration_test[0m
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target calibration_correction[0m
+[0.175s] [ 83%] Built target calibration_test
+[0.177s] [100%] Built target calibration_correction
+[0.193s] Invoked command in '/home/bryant/ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /home/bryant/ws/build/ur_calibration -- -j6 -l6
+[0.194s] Invoking command in '/home/bryant/ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/bryant/ws/build/ur_calibration
+[0.200s] -- Install configuration: "RelWithDebInfo"
+[0.200s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[0.201s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/include
+[0.201s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/include/ur_calibration
+[0.201s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[0.201s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[0.202s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/launch
+[0.202s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[0.202s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[0.203s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[0.203s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[0.203s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[0.203s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[0.203s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[0.204s] -- Installing: /home/bryant/ws/install/ur_calibration/share/ur_calibration/package.dsv
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[0.204s] -- Up-to-date: /home/bryant/ws/install/ur_calibration/share/ur_calibration/package.xml
+[0.207s] Invoked command in '/home/bryant/ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/bryant/ws/install/ur_robot_driver:/home/bryant/ws/install/ur_controllers:/home/bryant/ws/install/ur_description:/home/bryant/ws/install/ur_dashboard_msgs:/home/bryant/ws/install/weld_path_planner:/home/bryant/ws/install/ur_simulation_gazebo:/home/bryant/ws/install/ur:/home/bryant/ws/install/ur_calibration:/home/bryant/ws/install/ur_moveit_config:/home/bryant/ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /home/bryant/ws/build/ur_calibration
